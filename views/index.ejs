@@ -1,0 +1,22 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+  <body>
+    <%- include("./partials/nav.ejs") %>
+      <div class="recipes content">
+        <h2>Søk</h2>
+        <div class="reinSøk">
+          <form id="search">
+            <input type="text" placeholder="Søk" class="search-bar" name="search">
+            <button type="submit" class="search-button">Search</button>
+          </form>
+        </div>
+      </div>
+      <section id="searchOutput">
+        
+      </section>
+      
+      <%- include("./partials/footer.ejs") %>
+  </body>
+
+</html>
